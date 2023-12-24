@@ -68,8 +68,8 @@ lora_filenames = [
 #]
 
 clip_vision_filenames = [
-    ('clip_vision_g.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors')
+#    ('clip_vision_g.safetensors',
+ #    'https://huggingface.co/stabilityai/control-lora/resolve/main/revision/clip_vision_g.safetensors')
 ]
 
 controlnet_filenames = [
@@ -84,10 +84,10 @@ controlnet_filenames = [
 ]
 
 vae_approx_filenames = [
-    ('xlvaeapp.pth',
-     'https://huggingface.co/lllyasviel/misc/resolve/main/xlvaeapp.pth'),
-    ('taesd_decoder.pth',
-     'https://github.com/madebyollin/taesd/raw/main/taesd_decoder.pth')
+ #   ('xlvaeapp.pth',
+#     'https://huggingface.co/lllyasviel/misc/resolve/main/xlvaeapp.pth'),
+ #   ('taesd_decoder.pth',
+#     'https://github.com/madebyollin/taesd/raw/main/taesd_decoder.pth')
 ]
 
 

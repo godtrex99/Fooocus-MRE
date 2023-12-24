@@ -56,16 +56,16 @@ def prepare_environment():
 
 
 model_filenames = [
-    ('sd_xl_base_1.0_0.9vae.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors'),
-    ('sd_xl_refiner_1.0_0.9vae.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors')
+#    ('sd_xl_base_1.0_0.9vae.safetensors',
+#     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0_0.9vae.safetensors'),
+#    ('sd_xl_refiner_1.0_0.9vae.safetensors',
+ #    'https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0_0.9vae.safetensors')
 ]
 
 lora_filenames = [
-    ('sd_xl_offset_example-lora_1.0.safetensors',
-     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors')
-]
+#    ('sd_xl_offset_example-lora_1.0.safetensors',
+#     'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors')
+#]
 
 clip_vision_filenames = [
     ('clip_vision_g.safetensors',
@@ -73,14 +73,14 @@ clip_vision_filenames = [
 ]
 
 controlnet_filenames = [
-    ('control-lora-canny-rank128.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors'),
-    ('control-lora-canny-rank256.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors'),
-    ('control-lora-depth-rank128.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors'),
-    ('control-lora-depth-rank256.safetensors',
-     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors')
+ #   ('control-lora-canny-rank128.safetensors',
+ #    'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-canny-rank128.safetensors'),
+ #   ('control-lora-canny-rank256.safetensors',
+ #    'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-canny-rank256.safetensors'),
+#    ('control-lora-depth-rank128.safetensors',
+#     'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank128/control-lora-depth-rank128.safetensors'),
+ #   ('control-lora-depth-rank256.safetensors',
+ #    'https://huggingface.co/stabilityai/control-lora/resolve/main/control-LoRAs-rank256/control-lora-depth-rank256.safetensors')
 ]
 
 vae_approx_filenames = [
